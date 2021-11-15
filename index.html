@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Neon Checkbox</title>
+</head>
+
+<body>
+
+  <div class="box">
+    <h1>
+      Game Controls UI
+    </h1>
+    <label class="checkbox">
+      <input class="checkbox__input" checked hidden type="checkbox">
+      <span class="checkbox__checker">
+        <svg class="checkbox__icon">
+          <use xlink:href="#check" />
+        </svg>
+      </span>
+      <span class="checkbox__label">
+        HTML/CSS and JS
+      </span>
+    </label>
+
+    <label class="checkbox">
+      <input class="checkbox__input" hidden type="checkbox">
+      <span class="checkbox__checker">
+        <svg class="checkbox__icon">
+          <use xlink:href="#check" />
+        </svg>
+      </span>
+      <span class="checkbox__label">
+        Python/Ruby
+      </span>
+    </label>
+
+    <label class="checkbox">
+      <input class="checkbox__input" value="_1" name="radio" hidden type="radio">
+      <span class="checkbox__checker  checkbox__checker--circle">
+        <svg class="checkbox__icon">
+          <use xlink:href="#check" />
+        </svg>
+      </span>
+      <span class="checkbox__label">
+        Wordpress
+      </span>
+    </label>
+    </label>
+
+    <label class="checkbox">
+      <input class="checkbox__input" value="_2" name="radio" hidden type="radio">
+      <span class="checkbox__checker  checkbox__checker--circle">
+        <svg class="checkbox__icon">
+          <use xlink:href="#check" />
+        </svg>
+      </span>
+      <span class="checkbox__label">
+        Joomla
+      </span>
+    </label>
+  </div>
+
+  <svg style="display: none;">
+    <symbol id="check" viewbox="0 0 16 16">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M13.854 3.646a.5.5 0 010 .708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z" clip-rule="evenodd" />
+    </symbol>
+  </svg>
+
+</body>
+
+</html>
